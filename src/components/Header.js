@@ -21,9 +21,7 @@ const Header = () => (
           <p className="text-sm text-gray-500">
             Independence Day Coding Challenge
           </p>
-          <p className="text-xs text-gray-400">
-            Powered by Bureau of Indian Standards
-          </p>
+          <p className="text-xs text-gray-400">Powered by MASAI</p>
         </div>
       </div>
     </div>
