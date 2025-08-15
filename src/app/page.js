@@ -646,12 +646,12 @@ const IndianFlagValidator = () => {
 
       let estimatedSpokes = Math.round(spokeTransitions / 2);
 
-      if (estimatedSpokes > 30)
+      if (estimatedSpokes > 24)
         estimatedSpokes = Math.round(estimatedSpokes * 0.8);
       if (estimatedSpokes < 10)
         estimatedSpokes = Math.round(estimatedSpokes * 1.5);
 
-      return Math.max(1, Math.min(30, estimatedSpokes));
+      return Math.max(1, Math.min(24, estimatedSpokes));
     } catch (error) {
       console.error("Error detecting spokes:", error);
       return 1;
